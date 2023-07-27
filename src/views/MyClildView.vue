@@ -1,6 +1,17 @@
 <template>
   <div class="border rounded bg-light p-3">
-    <div class="fs-3">This is Child Component</div>
-    <slot></slot>
+    <header class="border-bottom">
+      <h4>
+        <slot name="header"></slot>
+      </h4>
+    </header>
+    <div>
+      <slot name="default"></slot>
+    </div>
+    <footer class="border-top">
+      <h4>
+        <slot name="footer"></slot>
+      </h4>
+    </footer>
   </div>
 </template>
