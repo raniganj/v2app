@@ -5,9 +5,9 @@
         <slot name="header"></slot>
       </h4>
     </header>
-    <div>
-      <slot name="default"></slot>
-    </div>
+    <main>
+      <slot></slot>
+    </main>
     <footer class="border-top">
       <h4>
         <slot name="footer"></slot>
