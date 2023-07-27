@@ -25,6 +25,9 @@ import { RouterLink } from 'vue-router'
           <li class="nav-item">
             <RouterLink class="nav-link" to="/about">About</RouterLink>
           </li>
+          <li class="nav-item">
+            <RouterLink class="nav-link" to="/slot">Slot</RouterLink>
+          </li>
         </ul>
       </div>
     </div>
