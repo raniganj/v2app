@@ -36,6 +36,11 @@ const routes = [
     path: '/reactive-binding',
     name: 'reactive-binding',
     component: () => import('../views/MyReactiveBinding.vue')
+  },
+  {
+    path: '/simple-list',
+    name: 'simple-list',
+    component: () => import('../views/MySimpleList.vue')
   }
 ]
 

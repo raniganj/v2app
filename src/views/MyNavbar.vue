@@ -48,6 +48,20 @@ import { RouterLink } from 'vue-router'
               <li><RouterLink class="nav-link" to="/reactive-binding">Reactive</RouterLink></li>
             </ul>
           </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Listing
+            </a>
+            <ul class="dropdown-menu">
+              <li><RouterLink class="nav-link" to="/simple-list">Simple List</RouterLink></li>
+            </ul>
+          </li>
         </ul>
       </div>
     </div>
