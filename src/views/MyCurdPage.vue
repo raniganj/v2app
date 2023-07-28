@@ -47,24 +47,24 @@ function hasValidInput() {
 
 <template>
   <div class="row justify-content-center">
-    <div class="col-12 col-md-6">
+    <div class="col-12 col-md-5">
       <div>
         <input type="text" class="form-control" v-model="prefix" placeholder="Filter prefix" />
       </div>
 
       <div class="mt-2 mb-2">
-        <select size="5" v-model="selected">
+        <select size="5" class="form-control" v-model="selected">
           <option v-for="name in filteredNames" :key="name">{{ name }}</option>
         </select>
       </div>
 
-      <label class="mb-1"
-        >Name: <input type="text" class="form-control" placeholder="first" v-model="first"
-      /></label>
-      <br />
-      <label
-        >Surname: <input type="text" class="form-control" placeholder="last" v-model="last"
-      /></label>
+      <div>
+        <label class="mb-1">Name: </label>
+        <input type="text" class="form-control" placeholder="first" v-model="first" />
+        <br />
+        <label>Surname: </label>
+        <input type="text" class="form-control" placeholder="last" v-model="last" />
+      </div>
 
       <div class="buttons mt-2">
         <button class="btn btn-primary" @click="create">Create</button>
