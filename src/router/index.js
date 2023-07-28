@@ -51,6 +51,11 @@ const routes = [
     path: '/reactive-list',
     name: 'reactive-list',
     component: () => import('../views/MyReactiveList.vue')
+  },
+  {
+    path: '/curd',
+    name: 'curd',
+    component: () => import('../views/MyCurdPage.vue')
   }
 ]
 

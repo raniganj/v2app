@@ -28,6 +28,9 @@ import { RouterLink } from 'vue-router'
           <li class="nav-item">
             <RouterLink class="nav-link" to="/slot">Slot</RouterLink>
           </li>
+          <li class="nav-item">
+            <RouterLink class="nav-link" to="/curd">Curd</RouterLink>
+          </li>
           <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"
