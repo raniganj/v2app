@@ -16,6 +16,11 @@ const routes = [
     path: '/slot',
     name: 'slot',
     component: () => import('../views/MyParantView.vue')
+  },
+  {
+    path: '/data-binding',
+    name: 'data-binding',
+    component: () => import('../views/MyDataBinding.vue')
   }
 ]
 
