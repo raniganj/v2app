@@ -42,6 +42,8 @@ import { RouterLink } from 'vue-router'
               <li><RouterLink class="nav-link" to="/data-binding">Data</RouterLink></li>
               <li><hr class="dropdown-divider" /></li>
               <li><RouterLink class="nav-link" to="/attribute-binding">Attribute</RouterLink></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><RouterLink class="nav-link" to="/event-binding">Event</RouterLink></li>
             </ul>
           </li>
         </ul>

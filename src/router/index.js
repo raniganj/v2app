@@ -26,6 +26,11 @@ const routes = [
     path: '/attribute-binding',
     name: 'attribute-binding',
     component: () => import('../views/MyAttributeBinding.vue')
+  },
+  {
+    path: '/event-binding',
+    name: 'event-binding',
+    component: () => import('../views/MyEventBinding.vue')
   }
 ]
 
