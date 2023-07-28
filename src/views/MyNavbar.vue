@@ -62,6 +62,8 @@ import { RouterLink } from 'vue-router'
               <li><RouterLink class="nav-link" to="/simple-list">Simple List</RouterLink></li>
               <li><hr class="dropdown-divider" /></li>
               <li><RouterLink class="nav-link" to="/simple-form">Simple Form</RouterLink></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><RouterLink class="nav-link" to="/reactive-list">Reactive List</RouterLink></li>
             </ul>
           </li>
         </ul>
