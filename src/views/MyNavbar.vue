@@ -40,6 +40,8 @@ import { RouterLink } from 'vue-router'
             </a>
             <ul class="dropdown-menu">
               <li><RouterLink class="nav-link" to="/data-binding">Data</RouterLink></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><RouterLink class="nav-link" to="/attribute-binding">Attribute</RouterLink></li>
             </ul>
           </li>
         </ul>

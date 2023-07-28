@@ -21,6 +21,11 @@ const routes = [
     path: '/data-binding',
     name: 'data-binding',
     component: () => import('../views/MyDataBinding.vue')
+  },
+  {
+    path: '/attribute-binding',
+    name: 'attribute-binding',
+    component: () => import('../views/MyAttributeBinding.vue')
   }
 ]
 
