@@ -31,6 +31,11 @@ const routes = [
     path: '/event-binding',
     name: 'event-binding',
     component: () => import('../views/MyEventBinding.vue')
+  },
+  {
+    path: '/reactive-binding',
+    name: 'reactive-binding',
+    component: () => import('../views/MyReactiveBinding.vue')
   }
 ]
 
