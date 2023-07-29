@@ -58,6 +58,11 @@ const routes = [
     component: () => import('../views/MyFirstApi.vue')
   },
   {
+    path: '/list-api',
+    name: 'list-api',
+    component: () => import('../views/MyListApi.vue')
+  },
+  {
     path: '/curd',
     name: 'curd',
     component: () => import('../views/MyCurdPage.vue')

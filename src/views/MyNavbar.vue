@@ -81,6 +81,8 @@ import { RouterLink } from 'vue-router'
             </a>
             <ul class="dropdown-menu">
               <li><RouterLink class="nav-link" to="/first-api">First API</RouterLink></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><RouterLink class="nav-link" to="/list-api">List API</RouterLink></li>
             </ul>
           </li>
         </ul>
