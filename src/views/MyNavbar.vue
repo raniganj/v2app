@@ -69,6 +69,20 @@ import { RouterLink } from 'vue-router'
               <li><RouterLink class="nav-link" to="/reactive-list">Reactive List</RouterLink></li>
             </ul>
           </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              API
+            </a>
+            <ul class="dropdown-menu">
+              <li><RouterLink class="nav-link" to="/first-api">First API</RouterLink></li>
+            </ul>
+          </li>
         </ul>
       </div>
     </div>

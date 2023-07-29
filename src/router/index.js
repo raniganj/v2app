@@ -53,6 +53,11 @@ const routes = [
     component: () => import('../views/MyReactiveList.vue')
   },
   {
+    path: '/first-api',
+    name: 'first-api',
+    component: () => import('../views/MyFirstApi.vue')
+  },
+  {
     path: '/curd',
     name: 'curd',
     component: () => import('../views/MyCurdPage.vue')
