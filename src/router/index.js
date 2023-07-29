@@ -63,6 +63,11 @@ const routes = [
     component: () => import('../views/MyListApi.vue')
   },
   {
+    path: '/axios-api',
+    name: 'axios-api',
+    component: () => import('../views/MyAxiosApi.vue')
+  },
+  {
     path: '/curd',
     name: 'curd',
     component: () => import('../views/MyCurdPage.vue')
