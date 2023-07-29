@@ -1,7 +1,11 @@
 <script setup>
-import { ref } from 'vue'
+import { onMounted, ref } from 'vue'
 
 let postList = ref()
+
+onMounted(() => {
+  getPostList()
+})
 
 let getPostList = async () => {
   let response = await fetch('https://jsonplaceholder.typicode.com/posts')
