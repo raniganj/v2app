@@ -18,8 +18,7 @@ let getPostList = async () => {
     <div class="col-12 col-md-6">
       <div class="fs-3">Post List API call</div>
       <hr />
-      <button type="button" class="btn btn-primary" @click="getPostList()">Get Post List</button>
-      <div>{{ postList }}</div>
+      <div v-for="(item, index) in postList" :key="index">{{ item.title }}</div>
     </div>
   </div>
 </template>
