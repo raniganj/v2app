@@ -73,6 +73,11 @@ const routes = [
     component: () => import('../views/MyStoreManagement1.vue')
   },
   {
+    path: '/state-management2',
+    name: 'state-management2',
+    component: () => import('../views/MyStoreManagement2.vue')
+  },
+  {
     path: '/curd',
     name: 'curd',
     component: () => import('../views/MyCurdPage.vue')

@@ -101,6 +101,10 @@ import { RouterLink } from 'vue-router'
               <li>
                 <RouterLink class="nav-link" to="/state-management1">State1</RouterLink>
               </li>
+              <li><hr class="dropdown-divider" /></li>
+              <li>
+                <RouterLink class="nav-link" to="/state-management2">State2</RouterLink>
+              </li>
             </ul>
           </li>
         </ul>
