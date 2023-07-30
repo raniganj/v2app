@@ -1,6 +1,14 @@
 <script setup>
 import { RouterView } from 'vue-router'
 import MyNavbar from './views/MyNavbar.vue'
+import { provide, ref } from 'vue'
+
+let count1 = ref(10)
+
+let incrementCount1 = () => {
+  count1.value++
+}
+provide('counter1', { count1, incrementCount1 })
 </script>
 
 <template>
