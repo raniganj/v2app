@@ -1,7 +1,7 @@
 <script setup>
 import { inject } from 'vue'
 
-let { count1, incrementCount1 } = inject('counter1')
+let { count1, incrementCount1, decrementCount1 } = inject('counter1')
 </script>
 <template>
   <div class="row justify-content-center">
@@ -9,8 +9,11 @@ let { count1, incrementCount1 } = inject('counter1')
       <div class="fs-3">Default Store</div>
       <hr />
       <div>Count : {{ count1 }}</div>
-      <button type="button" class="btn btn-primary" @click="incrementCount1()">
+      <button type="button" class="btn btn-primary me-1" @click="incrementCount1()">
         Increment Count1
+      </button>
+      <button type="button" class="btn btn-primary" @click="decrementCount1()">
+        Decrement Count1
       </button>
     </div>
   </div>

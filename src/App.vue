@@ -8,7 +8,10 @@ let count1 = ref(10)
 let incrementCount1 = () => {
   count1.value++
 }
-provide('counter1', { count1, incrementCount1 })
+let decrementCount1 = () => {
+  count1.value--
+}
+provide('counter1', { count1, incrementCount1, decrementCount1 })
 </script>
 
 <template>
