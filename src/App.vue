@@ -4,6 +4,7 @@ import MyNavbar from './views/MyNavbar.vue'
 import { provide, ref } from 'vue'
 
 let count1 = ref(10)
+let count2 = ref(10)
 
 let incrementCount1 = () => {
   count1.value++
@@ -11,7 +12,7 @@ let incrementCount1 = () => {
 let decrementCount1 = () => {
   count1.value--
 }
-provide('counter1', { count1, incrementCount1, decrementCount1 })
+provide('counter1', { count1, incrementCount1, decrementCount1, count2 })
 </script>
 
 <template>
