@@ -98,8 +98,9 @@ import { RouterLink } from 'vue-router'
               Store
             </a>
             <ul class="dropdown-menu">
-              <li><RouterLink class="nav-link" to="/default-store">Default Store</RouterLink></li>
-              <li><hr class="dropdown-divider" /></li>
+              <li>
+                <RouterLink class="nav-link" to="/state-management1">State1</RouterLink>
+              </li>
             </ul>
           </li>
         </ul>

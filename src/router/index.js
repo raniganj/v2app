@@ -68,9 +68,9 @@ const routes = [
     component: () => import('../views/MyAxiosApi.vue')
   },
   {
-    path: '/default-store',
-    name: 'default-store',
-    component: () => import('../views/MyDefaultStore.vue')
+    path: '/state-management1',
+    name: 'state-management1',
+    component: () => import('../views/MyStoreManagement1.vue')
   },
   {
     path: '/curd',
